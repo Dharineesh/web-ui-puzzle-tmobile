@@ -8,7 +8,7 @@
       formControlName="term"
     />
     <button mat-icon-button matSuffix>
-      <mat-icon>search</mat-icon>
+      search <mat-icon>search</mat-icon>
     </button>
   </mat-form-field>
 </form>
@@ -47,8 +47,8 @@
 </ng-container>
 <ng-template #empty>
   <div class="empty">
-    <p>
-      Try searching for a topic, for example "<a (click)="searchExample()"
+    <p class="textCol">
+      Try searching for a topic, for example "<a class="textCol" (click)="searchExample()"
         >JavaScript</a
       >".
     </p>
